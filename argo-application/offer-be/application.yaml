@@ -9,8 +9,8 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: offer-be
-    repoURL: git@github.com:price-offer/application-manifests/services.git
+    path: services/offer-be
+    repoURL: git@github.com:price-offer/application-manifests.git
     targetRevision: test
   syncPolicy:
     automated:
