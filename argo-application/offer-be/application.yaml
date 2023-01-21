@@ -11,7 +11,7 @@ spec:
   source:
     path: services/offer-be
     repoURL: git@github.com:price-offer/application-manifests.git
-    targetRevision: test
+    targetRevision: HEAD
   syncPolicy:
     automated:
       selfHeal: true
