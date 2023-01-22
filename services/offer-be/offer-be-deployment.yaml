@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: offer-be
 spec:
-  replicas: 3
+  replicas: 2
   revisionHistoryLimit: 3
   selector:
     matchLabels:
