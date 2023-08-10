@@ -3,7 +3,7 @@ kind: Rollout
 metadata:
   name: offer-be
 spec:
-  replicas: 3
+  replicas: 2
   strategy:
     canary:
       steps:
@@ -30,5 +30,5 @@ spec:
           protocol: TCP
         resources:
           requests:
-            memory: 32Mi
+            memory: 512Mi
             cpu: 5m
