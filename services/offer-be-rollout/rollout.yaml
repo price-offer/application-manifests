@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: offer-be
-        image: goharrm/offer-dev:3e5b5e8
+        image: goharrm/offer-dev:f89ebff
         ports:
         - name: http
           containerPort: 7070
